@@ -1,0 +1,31 @@
+body {
+    background: #24353f;
+    font-family: 'Titillium Web', sans-serif;
+}
+.formbox{
+    box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+}
+h1 {
+    color: #17a2b8;
+}
+.form-control:focus {
+    background-color: #17a2b8;
+    box-shadow: none;
+    color: #fff;
+}
+.form-control::placeholder{
+    color: #b6b6aa;
+}
+.btn:hover {
+    color: #fff;
+}
+a{
+    all:unset;
+    cursor: pointer;
+}
+p a:hover{
+    text-decoration:underline
+}
+.home-contant{
+    height: 75vh;
+}
